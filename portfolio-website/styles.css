@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: red;
+}
+.main{
+    background-color: yellow;
+}
+.container{
+    display: flex;
+}

@@ -12,12 +12,14 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    
 }
 .music-player{
     background-color: #ffe0e5;
     width: 400px;
     padding: 25px 35px;
     text-align: center;
+    border-radius: 20px;
 }
 nav{
     display: flex;
