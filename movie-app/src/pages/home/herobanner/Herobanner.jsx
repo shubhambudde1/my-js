@@ -34,14 +34,16 @@ const Herobanner = () => {
   };
 
   return (
-    <div className='herobanner'>
-    <div className='backdrop-img'>
+    <div className='heroBanner'>
+    {!loading && <div className='backdrop-img'>
     <Img src={background} />
-    </div>
+    </div> }
     
 
-      <div className='wrapper'>
-        <div className='heroBanner content'>
+      <div className='opacity-layer'></div>
+
+      <ContentWrapper>
+      <div className='heroBannerContent'>
           <span className='title'>welcome</span>
           <span className='subTitle'>welcome</span>
           <div className='searchInput'>
@@ -54,7 +56,9 @@ const Herobanner = () => {
             <button>Search</button>
           </div>
         </div>
-      </div>
+      </ContentWrapper>
+        
+      
       hallo, world! what are you doing
     </div>
   );
